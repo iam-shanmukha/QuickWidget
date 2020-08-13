@@ -6,7 +6,6 @@ root.geometry("200x500")
 frame = Frame(root)
 frame.pack()
 
-
 leftframe = Frame(root,bd = 9, bg = "blue", cursor = "arrow")
 leftframe.pack(side=TOP)
 
@@ -34,11 +33,6 @@ tasks={
 for task,cmd in tasks.items():
 	buttons = Button(leftframe, text = task, command=lambda cmd=cmd: os.system(cmd))
 	buttons.pack(padx =10, pady=5)
-	#slogan = tk.Button(frame,text=task,command=lambda cmd=cmd: os.system(cmd))
-	#slogan.pack(side="right")
-	#slogan.pack(expand=1)
-	#slogan.grid(columnspan=4)
-	#print(task,cmd)
 print(os.system("figlet -f slant QuickWidget"))
 print("Made with love by shanmukha vishnu")
 root.mainloop()
