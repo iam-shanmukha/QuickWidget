@@ -14,6 +14,7 @@ label.pack()
 
 tasks={
 	"open firefox":"firefox&",
+	"Edyst":"firefox edyst.com&",
 	"open Terminal":"exo-open --launch TerminalEmulator",
 	"PDF Viewer":"qpdfview --unique&",
 	"Open File Manager":"thunar $HOME&",
@@ -26,6 +27,7 @@ tasks={
 	"Open Sublime":'/opt/sublime_text/sublime_text&',
 	"Kill Firefox":"killall -9 firefox&",
 	"Music":"audacious",
+	"SHUTDOWN NOW":"shutdown -P now",
 	"Reboot":"reboot"
 	}
 #commands=['firefox', 'thunar $HOME','sensors','firefox coursera.org&','firefox gmail.com&','firefox twitter.com', 'firefox eenadu.net','/opt/sublime_text/sublime_text','quit']
